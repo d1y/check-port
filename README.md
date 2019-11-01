@@ -17,3 +17,21 @@ const checkPort = require('ck-port/checkPort')
   console.log('the tcp port used: ', is ? 'yes' : 'no')
 })()
 ```
+
+the `CLI` usage
+
+```console
+
+npm i -g ck-port
+
+# check
+
+ck-port 2333
+
+# loop check
+
+ck-port loop 2333
+
+```
+
+Thank you🍓
